@@ -3,6 +3,15 @@ import json
 import numpy as np
 from embedder import Embedder
 
+# This section is about developing a few shot system that will
+# retrieve relavant historical LinkedIn posts for few shot promting.
+
+# Here we convert the processed json of linkedIn posts into
+# pandas DataFrame, for ease of querying. We have implemented
+# hard querying (as of now based on length and tags), and also
+# soft querying - based on vector similarities between the interpreters
+# output and the embeddings of past LinkedIn posts
+
 class FewShotPost:
     def __init__(self, file_path="data/LinkedIn_processed_data.json") -> None:
         self.df : pd.DataFrame = None
@@ -74,7 +83,7 @@ if __name__=="__main__":
         ]
     }
 
-    # 2. Convert to text (IMPORTANT for embedding)
+    # 2. Convert to text into a better structure as input to embedding
     text = f"""
     What happened: {interpreter_output['what_happened']}
     Why global: {interpreter_output['why_global']}
@@ -93,7 +102,7 @@ if __name__=="__main__":
 
     # 5. Print nicely
     for i, post in enumerate(posts, 1):
-        print(f"\n*** POST {i} ***")
+        print(f"\n POST {i}")
         print(post["text"])
         print("Similarity:", post["similarity"])
 
