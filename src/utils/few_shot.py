@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 import numpy as np
-from embedder import Embedder
+from src.utils.embedder import Embedder
 
 # This section is about developing a few shot system that will
 # retrieve relavant historical LinkedIn posts for few shot promting.
@@ -106,6 +106,9 @@ if __name__=="__main__":
         print(post["text"])
         print("Similarity:", post["similarity"])
 
+
+
+# python3 -m src.utils.few_shot 
 
 
 

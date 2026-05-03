@@ -4,7 +4,7 @@ import json
 from typing import Any
 from llm_clients import llm
 import re
-from embedder import Embedder
+from src.utils.embedder import Embedder
 
 def doc_to_json(doc_file: str, json_file: str) -> None:
     df : pd.DataFrame = pd.read_excel(doc_file, sheet_name="All posts", skiprows=1)
@@ -64,3 +64,6 @@ if __name__ == "__main__":
 
     doc_to_json(raw_file, json_file)
     process_posts(json_file, processed_file)
+
+
+# python3 src.utils.linkedIn_data_processing
