@@ -3,10 +3,8 @@ from pandas import DataFrame
 import json
 from typing import Any
 from llm_clients import llm
-import time
-from tqdm import tqdm
 import re
-
+from embedder import Embedder
 
 def doc_to_json(doc_file: str, json_file: str) -> None:
     df : pd.DataFrame = pd.read_excel(doc_file, sheet_name="All posts", skiprows=1)
@@ -33,18 +31,23 @@ def doc_to_json(doc_file: str, json_file: str) -> None:
 
 def process_posts(json_file: str, processed_json_file: str) -> None:
     enriched_posts = []
+
     with open(json_file, encoding="utf-8") as file:
         posts = json.load(file)
-        for post in tqdm(posts, desc="Processing LinkedIn posts.\n"):
+        embedder = Embedder()
+
+        for i, post in enumerate(posts, 1):
             # Keep relevant fields 
-            clean_post = {"text": post["text"],
+            clean_post = {"id": i,
+                          "text": post["text"],
                           "post_type": post["post_type"],
                           "created_date": post["created_date"],
-                          "metadata": {"line_count": post["text"].count("\n") + 1,
-                                       "tags": re.findall(r"#\w+", post["text"])
-                                       }
+                          "line_count": post["text"].count("\n") + 1,
+                           "tags": re.findall(r"#\w+", post["text"])
                           }
-
+            
+            # add embeddings (for few shot learning)
+            clean_post["embedding"] = embedder.embed_text(post["text"])
             enriched_posts.append(clean_post)
     
     with open(processed_json_file, encoding="utf-8", mode="w") as outfile:

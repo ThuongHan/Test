@@ -1,14 +1,20 @@
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
 import os
 
-groq_api_file = "secrets/groq_api_key.env"
-load_dotenv(groq_api_file, override=True)
+uva_api_file = "secrets/uva_api_key.env"
+api_endpoint = "https://llmproxy.uva.nl"
 
-llm = ChatGroq(groq_api_key=os.getenv("GROQ_API_KEY"), model_name="openai/gpt-oss-20b")
+load_dotenv(uva_api_file, override=True)
+UVA_API_KEY = os.getenv("UVA_API_KEY")
 
+llm = ChatOpenAI(openai_api_base=api_endpoint,
+                 api_key=UVA_API_KEY,
+                 model_name="gpt-4o-mini")
 
-
+if __name__ == "__main__":
+    mes = llm.invoke("What is the capital of Poland?")
+    print(mes.content)
 
 
 
