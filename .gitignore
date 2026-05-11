@@ -1,4 +1,9 @@
 
+
+# data
+data/
+
+
 # environment
 venv/
 
@@ -11,3 +16,5 @@ __pycache__/
 
 # secrets
 secrets/
+
+
