@@ -1,4 +1,3 @@
-from langchain_core.prompts import ChatPromptTemplate
 import yaml
 from src.utils.few_shot import FewShotPost
 from src.utils.embedder import Embedder
@@ -8,7 +7,7 @@ class PromptBuilder:
         with open(config_path, "r") as file:
             self.config = yaml.safe_load(file)
 
-    def build(self, event: dict, few_shot_posts: list[dict]) -> ChatPromptTemplate:
+    def build(self, event: dict, few_shot_posts: list[dict]):
         system_identity = self.config["identity"]
         language_constraints = self.config["language_constraints"]
         format_constraints = self.config["linkedin_format_constraints"]
