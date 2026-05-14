@@ -1,4 +1,4 @@
-from src.Generator.prompt_builder import PromptBuilder
+from src.Generator.prompt_builder_v2 import PromptBuilder
 from src.Generator.output_formatter import OutputFormatter
 from src.utils.llm_clients import llm
 from src.utils.few_shot import FewShotPost
@@ -6,7 +6,7 @@ from src.utils.embedder import Embedder
 class PostGenerator:
     def __init__(self):
         self.llm = llm
-        self.prompt_builder = PromptBuilder("config/prompt_config.yaml")
+        self.prompt_builder = PromptBuilder("config/prompt_config_v2.yaml")
         self.formatter = OutputFormatter()
         self.few_shot = FewShotPost()
         self.embedder = Embedder()
@@ -89,7 +89,9 @@ if __name__ == "__main__":
         "The biggest AI opportunities often require redesigning entire processes, not just optimizing individual tasks",
         "Cross-organizational collaboration helps accelerate AI adoption and societal impact in the Netherlands",
         "AI should not only improve productivity, but also contribute to areas like financial health, education, and healthcare"
-    ]
+    ],
+
+    "source": "https://lnkd.in/eU8jqvT9"
 }
 
     generator: PostGenerator = PostGenerator()
@@ -103,7 +105,7 @@ if __name__ == "__main__":
     for i, post in enumerate(result["few_shot_examples"], 1):
         print(f"\n EXAMPLE {i}")
         print(post["text"])
-# python -m src.Generator.post_generator
+# python3 -m src.Generator.post_generator
 
 
 
