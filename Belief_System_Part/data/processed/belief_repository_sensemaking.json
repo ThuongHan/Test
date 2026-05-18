@@ -1,0 +1,346 @@
+[
+  {
+    "id": "B001",
+    "belief": "Future SaaS ventures should be AI-native unless there is a compelling reason otherwise.",
+    "category": "strategy",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B002",
+    "belief": "Natural language–based code generation will soon dominate software development work.",
+    "category": "domain_knowledge",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B003",
+    "belief": "Generative AI is particularly well suited to domains where language and visuals are core assets, such as advertising.",
+    "category": "domain_knowledge",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B004",
+    "belief": "Non-determinism and new AI concepts create significant equivocality for traditional software developers.",
+    "category": "domain_knowledge",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B005",
+    "belief": "Creating a platform that bridges traditional developer skills and AI capabilities is an effective response to developer uncertainty about AI.",
+    "category": "strategy",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B006",
+    "belief": "AI automation platforms should empower non-technical business roles to build technical solutions using natural language.",
+    "category": "strategy",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B007",
+    "belief": "Customer traction with business leaders should guide strategic pivots in AI product focus.",
+    "category": "strategy",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B008",
+    "belief": "Focusing on workflow engines and data processing pipelines is a more strategic use of AI than building chat-style interfaces.",
+    "category": "strategy",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B009",
+    "belief": "A workflow engine architecture is a necessary process facilitator for scalable AI automation.",
+    "category": "domain_knowledge",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B010",
+    "belief": "Describe-and-build ‘vibe automation’ is an effective way to operationalise natural language AI workflows for users.",
+    "category": "strategy",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B011",
+    "belief": "User-defined AI pipelines create substantial technical complexity that must be actively managed in system design.",
+    "category": "domain_knowledge",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B012",
+    "belief": "Organizations experience uncertainty about how to move from isolated AI initiatives to more systematic adoption.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B013",
+    "belief": "Successful AI adoption depends on making focused, explicit choices rather than diffuse experimentation.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B014",
+    "belief": "Scalability considerations for AI solutions must be addressed early in the adoption process.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B015",
+    "belief": "AI pilots frequently fail to progress beyond the pilot stage, indicating a common breakdown in AI implementation.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B016",
+    "belief": "Leaders have specific responsibilities and considerations when implementing AI solutions.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B017",
+    "belief": "Effective AI adoption requires investment in people in addition to technology.",
+    "category": "values",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B018",
+    "belief": "AI is expected to contribute to broader societal outcomes beyond organizational efficiency.",
+    "category": "stance",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B019",
+    "belief": "AI projects should be translated into solutions that create tangible impact.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B020",
+    "belief": "Building secure, full-stack AI applications for enterprises requires dedicated tools, infrastructure, and strategies.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B021",
+    "belief": "Enterprise AI must be designed with security as a foundational concern.",
+    "category": "values",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B022",
+    "belief": "Enterprises need foundational architectures, such as a Secure AI Factory, to run AI applications reliably at scale.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B023",
+    "belief": "Practical lessons from real AI systems are important for guiding enterprise AI implementation.",
+    "category": "values",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B024",
+    "belief": "Open-source stacks and APIs are enablers for safer enterprise AI agents.",
+    "category": "stance",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B025",
+    "belief": "Community meetups and knowledge sharing are important mechanisms for advancing enterprise AI practice.",
+    "category": "values",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B026",
+    "belief": "There is an urgent need to move from discussing AI opportunities to executing on them in practice.",
+    "category": "stance",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B027",
+    "belief": "AI should be embedded in real-world practice rather than confined to expert or academic domains.",
+    "category": "stance",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B028",
+    "belief": "The Netherlands already possesses strong AI research, collaboration, and implementation capacity, so the main challenge is converting capacity into actual use.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B029",
+    "belief": "Scaling proven AI solutions is the appropriate next step for national AI progress.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B030",
+    "belief": "Applying AI in practice and sharing learnings across organizations are central to KickstartAI’s role in the ecosystem.",
+    "category": "mission",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B031",
+    "belief": "Demonstrating real-life AI solutions to policymakers is important for influencing AI adoption at the national level.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B032",
+    "belief": "AI work should be situated at the intersection of technology, people, and implementation to create concrete solutions.",
+    "category": "values",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B033",
+    "belief": "AI should be designed to genuinely serve the needs of end users.",
+    "category": "values",
+    "sources": [
+      "linkedin_batch_01"
+    ]
+  },
+  {
+    "id": "B034",
+    "belief": "AI adoption in the Netherlands is urgent and requires immediate, concrete action rather than further reflection.",
+    "category": "stance",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B035",
+    "belief": "Maintaining national competitiveness requires treating the Netherlands as a scale-up country for AI adoption focused on implementation in daily operations.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B036",
+    "belief": "Meaningful AI adoption requires tackling real problems, embedding AI into core processes, and addressing culture and governance rather than just deploying tools.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B037",
+    "belief": "AI adoption is a steep organisational learning process rather than a straightforward technology rollout.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B038",
+    "belief": "Culture and governance are essential components of successful AI adoption.",
+    "category": "values",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B039",
+    "belief": "Large companies are critical flywheels for scaling AI innovation and practical adoption in the Netherlands.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B040",
+    "belief": "KickstartAI should pursue a long-term, scaled increase in impact across both large and small businesses.",
+    "category": "mission",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B041",
+    "belief": "Policy ambitions for AI must be translated into practical implementation to be valuable.",
+    "category": "stance",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B042",
+    "belief": "Becoming a digital frontrunner in the future economy requires taking concrete steps on AI now.",
+    "category": "stance",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  },
+  {
+    "id": "B043",
+    "belief": "AI policy should include infrastructure, literacy, fiscal incentives, and responsible public-sector use.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_batch_02"
+    ]
+  }
+]

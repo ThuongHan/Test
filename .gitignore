@@ -1,18 +1,25 @@
 # data
 data/
 
-
 # environment
 venv/
+.venv/
+.env
+.env.*
 
 # python cache
 __pycache__/
 *.pyc
 
-# OS 
+# OS
 .DS_Store
 
 # secrets
 secrets/
 
-
+# embeddings / model files
+embeddings/
+*.pkl
+*.joblib
+*.npy
+*.npz

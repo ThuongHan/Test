@@ -1,0 +1,389 @@
+[
+  {
+    "belief": "Future SaaS ventures should be AI-native unless there is a compelling reason otherwise.",
+    "category": "AI_adoption",
+    "source_quote": "Future SaaS ventures should be AI-native unless there is a compelling reason otherwise.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "Natural language–based code generation will soon dominate software development work.",
+    "category": "AI_adoption",
+    "source_quote": "Natural language–based code generation will soon dominate software development work.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Generative AI is particularly well suited to domains where language and visuals are core assets, such as advertising.",
+    "category": "AI_adoption",
+    "source_quote": "Generative AI is particularly well suited to domains where language and visuals are core assets, such as advertising.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "causal_attribution",
+    "confidence": "high"
+  },
+  {
+    "belief": "Non-determinism and new AI concepts create significant equivocality for traditional software developers.",
+    "category": "organisational_capability",
+    "source_quote": "Non-determinism and new AI concepts create significant equivocality for traditional software developers.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "problem_framing",
+    "confidence": "high"
+  },
+  {
+    "belief": "Creating a platform that bridges traditional developer skills and AI capabilities is an effective response to developer uncertainty about AI.",
+    "category": "organisational_capability",
+    "source_quote": "Creating a platform that bridges traditional developer skills and AI capabilities is an effective response to developer ",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI automation platforms should empower non-technical business roles to build technical solutions using natural language.",
+    "category": "AI_adoption",
+    "source_quote": "AI automation platforms should empower non-technical business roles to build technical solutions using natural language.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Customer traction with business leaders should guide strategic pivots in AI product focus.",
+    "category": "organisational_capability",
+    "source_quote": "Customer traction with business leaders should guide strategic pivots in AI product focus.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "causal_attribution",
+    "confidence": "high"
+  },
+  {
+    "belief": "Focusing on workflow engines and data processing pipelines is a more strategic use of AI than building chat-style interfaces.",
+    "category": "organisational_capability",
+    "source_quote": "Focusing on workflow engines and data processing pipelines is a more strategic use of AI than building chat-style interf",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "A workflow engine architecture is a necessary process facilitator for scalable AI automation.",
+    "category": "organisational_capability",
+    "source_quote": "A workflow engine architecture is a necessary process facilitator for scalable AI automation.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Describe-and-build ‘vibe automation’ is an effective way to operationalise natural language AI workflows for users.",
+    "category": "AI_adoption",
+    "source_quote": "Describe-and-build ‘vibe automation’ is an effective way to operationalise natural language AI workflows for users.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "medium"
+  },
+  {
+    "belief": "User-defined AI pipelines create substantial technical complexity that must be actively managed in system design.",
+    "category": "organisational_capability",
+    "source_quote": "User-defined AI pipelines create substantial technical complexity that must be actively managed in system design.",
+    "belief_type": "primary",
+    "source_document": "blog",
+    "inference_type": "problem_framing",
+    "confidence": "high"
+  },
+  {
+    "belief": "Organizations experience uncertainty about how to move from isolated AI initiatives to more systematic adoption.",
+    "category": "AI_adoption",
+    "source_quote": "Organizations experience uncertainty about how to move from isolated AI initiatives to more systematic adoption.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "problem_framing",
+    "confidence": "high"
+  },
+  {
+    "belief": "Successful AI adoption depends on making focused, explicit choices rather than diffuse experimentation.",
+    "category": "AI_adoption",
+    "source_quote": "Successful AI adoption depends on making focused, explicit choices rather than diffuse experimentation.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "Scalability considerations for AI solutions must be addressed early in the adoption process.",
+    "category": "AI_adoption",
+    "source_quote": "Scalability considerations for AI solutions must be addressed early in the adoption process.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI pilots frequently fail to progress beyond the pilot stage, indicating a common breakdown in AI implementation.",
+    "category": "AI_adoption",
+    "source_quote": "AI pilots frequently fail to progress beyond the pilot stage, indicating a common breakdown in AI implementation.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "problem_framing",
+    "confidence": "high"
+  },
+  {
+    "belief": "Leaders have specific responsibilities and considerations when implementing AI solutions.",
+    "category": "organisational_capability",
+    "source_quote": "Leaders have specific responsibilities and considerations when implementing AI solutions.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "Effective AI adoption requires investment in people in addition to technology.",
+    "category": "organisational_capability",
+    "source_quote": "Effective AI adoption requires investment in people in addition to technology.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI is expected to contribute to broader societal outcomes beyond organizational efficiency.",
+    "category": "societal_impact",
+    "source_quote": "AI is expected to contribute to broader societal outcomes beyond organizational efficiency.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI projects should be translated into solutions that create tangible impact.",
+    "category": "AI_adoption",
+    "source_quote": "AI projects should be translated into solutions that create tangible impact.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "Building secure, full-stack AI applications for enterprises requires dedicated tools, infrastructure, and strategies.",
+    "category": "AI_adoption",
+    "source_quote": "Building secure, full-stack AI applications for enterprises requires dedicated tools, infrastructure, and strategies.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Enterprise AI must be designed with security as a foundational concern.",
+    "category": "responsibility",
+    "source_quote": "Enterprise AI must be designed with security as a foundational concern.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Enterprises need foundational architectures, such as a Secure AI Factory, to run AI applications reliably at scale.",
+    "category": "organisational_capability",
+    "source_quote": "Enterprises need foundational architectures, such as a Secure AI Factory, to run AI applications reliably at scale.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Practical lessons from real AI systems are important for guiding enterprise AI implementation.",
+    "category": "knowledge_sharing",
+    "source_quote": "Practical lessons from real AI systems are important for guiding enterprise AI implementation.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "causal_attribution",
+    "confidence": "high"
+  },
+  {
+    "belief": "Open-source stacks and APIs are seen as enablers for safer enterprise AI agents.",
+    "category": "responsibility",
+    "source_quote": "Open-source stacks and APIs are seen as enablers for safer enterprise AI agents.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "causal_attribution",
+    "confidence": "high"
+  },
+  {
+    "belief": "Community meetups and knowledge sharing are important mechanisms for advancing enterprise AI practice.",
+    "category": "collaboration",
+    "source_quote": "Community meetups and knowledge sharing are important mechanisms for advancing enterprise AI practice.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "There is an urgent need to move from discussing AI opportunities to executing on them in practice.",
+    "category": "AI_adoption",
+    "source_quote": "There is an urgent need to move from discussing AI opportunities to executing on them in practice.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "problem_framing",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI should be embedded in real-world practice rather than confined to expert or academic domains.",
+    "category": "AI_adoption",
+    "source_quote": "AI should be embedded in real-world practice rather than confined to expert or academic domains.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "The Netherlands already possesses strong AI research, collaboration, and implementation capacity, so the main challenge is converting capacity into actual use.",
+    "category": "societal_impact",
+    "source_quote": "The Netherlands already possesses strong AI research, collaboration, and implementation capacity, so the main challenge ",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "causal_attribution",
+    "confidence": "high"
+  },
+  {
+    "belief": "Scaling proven AI solutions is the appropriate next step for national AI progress.",
+    "category": "AI_adoption",
+    "source_quote": "Scaling proven AI solutions is the appropriate next step for national AI progress.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "Applying AI in practice and sharing learnings across organizations are central to KickstartAI’s role in the ecosystem.",
+    "category": "knowledge_sharing",
+    "source_quote": "Applying AI in practice and sharing learnings across organizations are central to KickstartAI’s role in the ecosystem.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Demonstrating real-life AI solutions to policymakers is important for influencing AI adoption at the national level.",
+    "category": "societal_impact",
+    "source_quote": "Demonstrating real-life AI solutions to policymakers is important for influencing AI adoption at the national level.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "medium"
+  },
+  {
+    "belief": "AI work should be situated at the intersection of technology, people, and implementation to create concrete solutions.",
+    "category": "organisational_capability",
+    "source_quote": "AI work should be situated at the intersection of technology, people, and implementation to create concrete solutions.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI should be designed to genuinely serve the needs of end users.",
+    "category": "responsibility",
+    "source_quote": "AI should be designed to genuinely serve the needs of end users.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_01",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI adoption in the Netherlands is urgent and requires immediate, concrete action rather than further reflection.",
+    "category": "AI_adoption",
+    "source_quote": "AI adoption in the Netherlands is urgent and requires immediate, concrete action rather than further reflection.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "problem_framing",
+    "confidence": "high"
+  },
+  {
+    "belief": "Maintaining national competitiveness requires treating the Netherlands as a scale-up country for AI adoption focused on implementation in daily operations.",
+    "category": "AI_adoption",
+    "source_quote": "Maintaining national competitiveness requires treating the Netherlands as a scale-up country for AI adoption focused on ",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Meaningful AI adoption requires tackling real problems, embedding AI into core processes, and addressing culture and governance rather than just deploying tools.",
+    "category": "organisational_capability",
+    "source_quote": "Meaningful AI adoption requires tackling real problems, embedding AI into core processes, and addressing culture and gov",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI adoption is a steep organisational learning process rather than a straightforward technology rollout.",
+    "category": "organisational_capability",
+    "source_quote": "AI adoption is a steep organisational learning process rather than a straightforward technology rollout.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "causal_attribution",
+    "confidence": "high"
+  },
+  {
+    "belief": "Culture and governance are essential components of successful AI adoption.",
+    "category": "organisational_capability",
+    "source_quote": "Culture and governance are essential components of successful AI adoption.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Large companies are critical flywheels for scaling AI innovation and practical adoption in the Netherlands.",
+    "category": "AI_adoption",
+    "source_quote": "Large companies are critical flywheels for scaling AI innovation and practical adoption in the Netherlands.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "causal_attribution",
+    "confidence": "high"
+  },
+  {
+    "belief": "KickstartAI should pursue a long-term, scaled increase in impact across both large and small businesses.",
+    "category": "organisational_capability",
+    "source_quote": "KickstartAI should pursue a long-term, scaled increase in impact across both large and small businesses.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  },
+  {
+    "belief": "Policy ambitions for AI must be translated into practical implementation to be valuable.",
+    "category": "AI_adoption",
+    "source_quote": "Policy ambitions for AI must be translated into practical implementation to be valuable.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "Becoming a digital frontrunner in the future economy requires taking concrete steps on AI now.",
+    "category": "AI_adoption",
+    "source_quote": "Becoming a digital frontrunner in the future economy requires taking concrete steps on AI now.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "prescriptive",
+    "confidence": "high"
+  },
+  {
+    "belief": "AI policy should include infrastructure, literacy, fiscal incentives, and responsible public-sector use.",
+    "category": "societal_impact",
+    "source_quote": "AI policy should include infrastructure, literacy, fiscal incentives, and responsible public-sector use.",
+    "belief_type": "primary",
+    "source_document": "linkedin_batch_02",
+    "inference_type": "theoretical_interpretation",
+    "confidence": "high"
+  }
+]
