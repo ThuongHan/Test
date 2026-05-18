@@ -64,42 +64,69 @@ PROBLEM_FRAMING_PATTERNS = [
 ]
 
 # ── PROMPTS ───────────────────────────────────────────────────────────────────
-SYSTEM_PROMPT = """You are an expert qualitative researcher specialising in
-organisational sensemaking theory (Weick, 1995; Malik et al., 2025) and
-belief system analysis. Your task is to extract IMPLICIT BELIEFS held by
-KickstartAI from organisational communications, using the following three
-analytical lenses derived from sensemaking literature:
+SYSTEM_PROMPT = """
+You are an expert qualitative researcher specialising in organisational sensemaking theory
+and digitally enabled strategic agility.
 
-1. PROBLEM FRAMING: The way an organisation defines a challenge implicitly
-   reveals a normative belief about the correct state of affairs that should
-   obtain. Extract the implicit 'should-be' belief embedded in each problem frame.
+Your task is to extract implicit organisational beliefs from KickstartAI communications.
+Use the academic framework from Malik et al. (2025), which theorises that digitally enabled
+strategic agility is constructed through organisational sensemaking.
 
-2. PRESCRIPTIVE LANGUAGE: Phrases such as "organisations must", "the key is to",
-   or "what is needed is" carry implicit beliefs about best practice and correct
-   organisational conduct, even absent any explicit "we believe" statement.
+Core theoretical assumptions:
+1. Organisations face weak signals and equivocality when interpreting digital, AI, or market change.
+2. Sensemaking removes equivocality through two linked devices:
+   a. Meaning / discourse: shared interpretations, cognitive frames, and digital orientation.
+   b. Actions / process facilitators: routines, structures, governance, and transformation practices.
+3. Digital orientation represents the discursive meaning structure.
+4. Information governance and digital transformation represent action-oriented process facilitators.
+5. Strategic agility emerges when meaning and action enable coordinated organisational response.
 
-3. CAUSAL ATTRIBUTION: When KickstartAI attributes an outcome to a specific
-   cause, this reveals a belief about the mechanisms of organisational change
-   and what levers matter most.
+Extract only beliefs that are inferable from the text. Do not invent beliefs.
+For each belief, identify the textual signal and the theoretical mechanism.
 
-For each belief identified, return a JSON object with exactly these fields:
+Return a valid JSON array with exactly these fields:
 {
-  "belief_id"        : "<sequential integer as string>",
-  "belief_statement" : "<concise declarative sentence>",
-  "inference_type"   : "<problem_framing | prescriptive | causal_attribution>",
-  "source_excerpt"   : "<verbatim short quote (≤ 25 words) from the input>",
-  "confidence"       : "<high | medium | low>",
-  "domain"           : "<AI_adoption | societal_impact | organisational_capability | knowledge_sharing | collaboration | responsibility>"
+  "belief_id": "<sequential integer as string>",
+  "belief_statement": "<concise declarative sentence>",
+  "observed_signal": "<problem_framing | prescriptive_language | causal_attribution | strategic_orientation | governance_signal | transformation_signal>",
+  "sensemaking_role": "<meaning | action | meaning_action_link | equivocality_removal>",
+  "theoretical_construct": "<digital_orientation | information_governance | digital_transformation | digitally_enabled_strategic_agility | equivocality>",
+  "inference_type": "<problem_framing | prescriptive | causal_attribution | theoretical_interpretation>",
+  "inference_logic": "<one sentence explaining how the quote supports the belief using the theory>",
+  "source_excerpt": "<verbatim short quote of 25 words or fewer from the input>",
+  "confidence": "<high | medium | low>",
+  "domain": "<AI_adoption | societal_impact | organisational_capability | knowledge_sharing | collaboration | responsibility>"
 }
 
-Return ONLY a valid JSON array. No preamble, no markdown fences."""
+Rules:
+- Do not extract generic themes; extract implicit beliefs.
+- Every belief must be grounded in a source_excerpt.
+- The inference_logic must explicitly connect the excerpt to sensemaking theory.
+- If the text only reports an event without normative, causal, or sensemaking implication, do not extract it.
+- Return ONLY valid JSON. No markdown.
+"""
 
-DEDUP_SYSTEM = """You are a qualitative research analyst. You will receive a
-JSON array of extracted belief statements. Deduplicate semantically redundant
-beliefs: where two or more belief_statements convey the same underlying belief,
-retain only the most clearly formulated one. Do not merge beliefs that differ
-in inference_type or domain.
-Return ONLY the deduplicated JSON array. Same schema as input. No markdown."""
+DEDUP_SYSTEM = """
+You are a qualitative research analyst using organisational sensemaking theory.
+
+You will receive a JSON array of extracted implicit beliefs.
+Deduplicate semantically redundant beliefs only when they express the same underlying belief
+AND share the same:
+- theoretical_construct
+- sensemaking_role
+- domain
+
+Do not merge beliefs if they refer to different sensemaking mechanisms, e.g. meaning/discourse
+versus action/process facilitation.
+
+When duplicates exist, retain the belief with:
+1. the clearest belief_statement,
+2. the strongest source_excerpt,
+3. the most explicit inference_logic,
+4. the highest confidence.
+
+Return ONLY the deduplicated JSON array using the same schema. No markdown.
+"""
 
 
 # ── HELPERS ───────────────────────────────────────────────────────────────────
@@ -134,10 +161,17 @@ def annotate_posts_with_signals(df: pd.DataFrame) -> pd.DataFrame:
 
 def _llm_deduplicate(df_raw: pd.DataFrame) -> pd.DataFrame:
     """Semantic deduplication via a second LLM pass. Falls back on failure."""
+    
     available_cols = [
-        c for c in ["belief_id", "belief_statement", "inference_type", "domain", "source_label", "confidence"]
-        if c in df_raw.columns
+    c for c in [
+        "belief_id", "belief_statement", "inference_type",
+        "source_excerpt", "confidence",
+        "theoretical_construct", "belief_domain",
+        "sensemaking_role", "source_label", "source_document",
     ]
+    if c in df_raw.columns
+    ]   
+    
     dedup_input = json.dumps(df_raw[available_cols].to_dict(orient="records"), ensure_ascii=False)
 
     print("\n[DEDUP] Running semantic deduplication via LLM ...")
@@ -179,8 +213,10 @@ class SensemakingExtractor(BaseExtractor):
         user_message = (
             f"Source: {source_label}\n\n"
             f"--- BEGIN TEXT ---\n{text[:4000]}\n--- END TEXT ---\n\n"
-            "Apply the three sensemaking lenses to extract all implicit beliefs. "
-            "Return the full JSON array."
+            "Extract implicit organisational beliefs using Malik et al. (2025)'s "
+            "sensemaking framework. For each belief, show whether the text expresses "
+            "meaning/discourse, action/process facilitation, equivocality removal, or a "
+            "meaning-action link. Only extract beliefs supported by a verbatim excerpt."
         )
 
         try:
@@ -242,6 +278,7 @@ class SensemakingExtractor(BaseExtractor):
         blog_path:           str | Path,
         posts_path:          str | Path,
         output_dir:          str | Path,
+        output_path:         str | Path | None = None,
         batch_size:          int = 20,
         blog_char_limit:     int | None = None,
         linkedin_row_limit:  int | None = None,
@@ -295,9 +332,18 @@ class SensemakingExtractor(BaseExtractor):
         df_final = _llm_deduplicate(df_raw)
 
         # Section D: save outputs
-        beliefs_out   = output_dir / "beliefs_extracted_method2.json"
-        raw_out       = output_dir / "beliefs_raw_method2.json"
-        annotated_out = output_dir / "linkedin_posts_annotated_method2.json"
+        if output_path is not None:
+            # Use caller-supplied path (e.g. beliefs_extracted_sensemaking.json)
+            output_path   = Path(output_path)
+            stem          = output_path.stem                          # e.g. beliefs_extracted_sensemaking
+            beliefs_out   = output_path
+            raw_out       = output_dir / f"{stem}_raw.json"
+            annotated_out = output_dir / f"{stem}_linkedin_annotated.json"
+        else:
+            # Legacy fallback — original hardcoded names
+            beliefs_out   = output_dir / "beliefs_extracted_method2.json"
+            raw_out       = output_dir / "beliefs_raw_method2.json"
+            annotated_out = output_dir / "linkedin_posts_annotated_method2.json"
 
         df_final.to_json(beliefs_out,   orient="records", force_ascii=False, indent=2)
         df_raw.to_json(raw_out,         orient="records", force_ascii=False, indent=2)

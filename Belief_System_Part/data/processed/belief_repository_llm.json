@@ -1,0 +1,787 @@
+[
+  {
+    "id": "B001",
+    "belief": "Meaningful progress in AI starts with individuals who apply AI in bold, practical ways, and these practitioners should be highlighted and celebrated.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B002",
+    "belief": "KickstartAI’s core mission is to accelerate the practical, responsible adoption of AI in the Netherlands and bridge the gap between AI ideas and real-world impact.",
+    "category": "mission",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B003",
+    "belief": "KickstartAI’s purpose is to use AI for good, focusing on positive societal impact rather than maximising revenue or narrow KPIs.",
+    "category": "mission",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B004",
+    "belief": "KickstartAI believes AI should be applied to socially beneficial, real‑world challenges—such as healthcare, environment, food security, security, and education—rather than purely commercial or abstract problems.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B005",
+    "belief": "KickstartAI values cross‑organisational, cross‑sector collaboration and knowledge sharing as essential mechanisms for strengthening the AI ecosystem and achieving large‑scale impact.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B006",
+    "belief": "KickstartAI believes in prioritising concrete action and implementation over abstract discussion or hype when it comes to AI.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B007",
+    "belief": "KickstartAI views community‑building—events, meetups, and informal connections among practitioners—as strategically essential for advancing AI in the Netherlands.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B008",
+    "belief": "KickstartAI believes AI solutions should be designed around real user needs, workflows, psychology, and trust so that people can understand, trust, and actually use them.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B009",
+    "belief": "KickstartAI believes that AI projects should start from clearly defined, concrete problems and operational decision needs rather than from a vague desire to ‘do something with AI’ or from technology alone.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B010",
+    "belief": "KickstartAI holds that many AI initiatives fail not because of technology but because organisations underestimate human, organisational, governance, and process factors, especially the leap from pilot to scaled adoption.",
+    "category": "domain_knowledge",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B011",
+    "belief": "Successful AI adoption requires focus: organisations must deliberately prioritise a limited set of high‑impact use cases, say no to others, and move beyond fragmented experimentation and endless pilots.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B012",
+    "belief": "Scaling AI from pilots into core, day‑to‑day operations is more valuable than keeping AI efforts at the experimental stage, and is necessary to realise real business and societal impact.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B013",
+    "belief": "KickstartAI believes that end users and frontline staff must be involved early and continuously in AI design and development to build trust, ensure fit with workflows, and achieve sustained adoption.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B014",
+    "belief": "KickstartAI values transparency, explainability, and clear communication of AI systems’ limitations, uncertainties, and rationale as prerequisites for trust, especially in high‑stakes domains.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B015",
+    "belief": "KickstartAI believes that responsible AI requires integrating ethics, safety, security, privacy, and fairness into design and governance from the outset, not as afterthoughts.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B016",
+    "belief": "KickstartAI believes AI should augment and support human judgment and roles—especially in education, healthcare, military, and financial advice—rather than replace humans or remove human oversight.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B017",
+    "belief": "KickstartAI believes that AI work and careers should emphasise strong fundamentals (software engineering, statistics, maths) and adaptability over attachment to specific tools or frameworks.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B018",
+    "belief": "KickstartAI values diversity and inclusion in AI—across disciplines, backgrounds, and genders—and believes diverse voices are necessary for human‑centric, responsible AI.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B019",
+    "belief": "KickstartAI believes that sharing concrete case studies, lessons learned, and end‑to‑end impact stories is one of the most effective ways to inspire and guide responsible AI practice.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B020",
+    "belief": "KickstartAI believes that open‑source AI infrastructure, open baselines, and putting work ‘in the open’ are key enablers for collective learning, collaboration, and broad societal participation in AI.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B021",
+    "belief": "KickstartAI believes that AI should be treated as a socio‑technical transformation—rewriting how organisations work—rather than as a conventional IT upgrade or isolated technology rollout.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B022",
+    "belief": "KickstartAI believes that empowering internal entrepreneurs and change‑makers who are willing to challenge existing ways of working is more critical to AI adoption than adding more technology or pilots.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B023",
+    "belief": "KickstartAI believes that many organisations currently struggle to translate AI’s theoretical potential into concrete operational impact and use inadequate KPIs that overemphasise pilots instead of real value.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B024",
+    "belief": "KickstartAI believes that AI strategies often fail because companies approach AI the wrong way and must fundamentally change how they design and implement AI strategy.",
+    "category": "stance",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B025",
+    "belief": "KickstartAI believes that cross‑industry and cross‑company knowledge bases and shared lessons can significantly accelerate AI adoption and reduce duplicated effort.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B026",
+    "belief": "KickstartAI believes that the Netherlands currently talks more about AI than it implements, and that there is an urgent need to move from words and policy texts to concrete, scaled AI applications.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B027",
+    "belief": "KickstartAI believes that rapid, large‑scale AI adoption is strategically necessary for the Netherlands to remain competitive, economically resilient, and technologically sovereign.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B028",
+    "belief": "KickstartAI believes that existing Dutch and European institutional and regulatory structures are often too risk‑averse, slow, or complex, and can unintentionally hinder beneficial AI innovation and competitiveness.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B029",
+    "belief": "KickstartAI believes that well‑designed AI regulation should balance safety, ethics, and human rights with innovation and competitiveness, focusing on preventing real harm rather than rigid processes.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B030",
+    "belief": "KickstartAI believes that companies and professionals need practical guidance and tools to interpret and operationalise complex AI regulations such as the EU AI Act in day‑to‑day work.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B031",
+    "belief": "KickstartAI believes that public–private collaboration and national‑level initiatives (e.g., National AI Delta Plan) are key mechanisms for accelerating responsible AI adoption in the Netherlands.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B032",
+    "belief": "KickstartAI believes that large companies and cross‑sector coalitions can act as flywheels for national AI adoption by demonstrating concrete, scaled applications.",
+    "category": "stance",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B033",
+    "belief": "KickstartAI believes that Europe should invest in sovereign AI capabilities—including domestic data centres and open, locally focused large language models—to reduce dependence on non‑European tech giants.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B034",
+    "belief": "KickstartAI believes that AI is already an infrastructural, foundational technology deeply embedded in critical economic and societal systems, so regulation and governance decisions have high stakes.",
+    "category": "domain_knowledge",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B035",
+    "belief": "KickstartAI believes that AI should be used as a force for good—to safeguard the welfare state, boost the economy, strengthen society, and address major societal challenges such as labour shortages, healthcare pressure, environment, and food security.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B036",
+    "belief": "KickstartAI believes that AI adoption is a governance and responsibility issue for executives and boards, not merely a technical matter, and leaders must gain hands‑on understanding of AI.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B037",
+    "belief": "KickstartAI believes that AI innovation and adoption must be accompanied by strong governance, security, privacy, and auditability mechanisms as prerequisites for scaling advanced AI systems.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B038",
+    "belief": "KickstartAI believes that responsible AI development should prioritise long‑term societal impact—especially for vulnerable populations—over short‑term performance or purely commercial gains.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B039",
+    "belief": "KickstartAI believes that AI evaluation should go beyond headline accuracy and benchmark scores to focus on model errors, bias, safety, explainability, and real‑world usefulness for stakeholders.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B040",
+    "belief": "KickstartAI believes that data quality, composition, and diversity are as crucial as model size for language models, and that systematic, metric‑driven approaches to dataset construction are needed to improve fairness and robustness.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B041",
+    "belief": "KickstartAI believes that current benchmark‑centric incentives in AI research are misaligned with deeper scientific understanding and should be reoriented toward studying model errors, problem hardness, and qualitative human meaning.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B042",
+    "belief": "KickstartAI believes that labelling current large language models as ‘reasoning models’ is misleading and risks users overestimating their capabilities; understanding what is missing for true reasoning and AGI is strategically important.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B043",
+    "belief": "KickstartAI believes that anthropomorphising AI systems and conflating their language abilities with human‑like cognition is misleading and can distort ethical and safety judgments.",
+    "category": "stance",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B044",
+    "belief": "KickstartAI believes that deploying AI systems without appropriate guardrails is risky, especially because current models lack human‑like intent, memory, and self‑awareness yet operate at scale.",
+    "category": "stance",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B045",
+    "belief": "KickstartAI believes that effective AI governance and guardrail design should be informed by the fundamental differences between human and machine cognition.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B046",
+    "belief": "KickstartAI believes that AI security and safety are high‑priority goals that require continuous monitoring, testing, and improvement to keep pace with evolving threats and dual‑use risks.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B047",
+    "belief": "KickstartAI believes that AI systems used in high‑stakes security and financial contexts should prioritise explainability, bias control, and verifiable information over using the most opaque, cutting‑edge models.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B048",
+    "belief": "KickstartAI believes that in military contexts lethal force decisions must always remain under human control; autonomous weapons that self‑select targets have no place in the Dutch armed forces.",
+    "category": "values",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B049",
+    "belief": "KickstartAI believes that ethical and responsible AI is fundamentally about intent, process, transparency, explainability, human oversight, and integrating ethics from design through deployment.",
+    "category": "values",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B050",
+    "belief": "KickstartAI believes that AI should remain a replaceable tool and means to an end, not an indispensable core that organisations cannot switch off without systemic risk.",
+    "category": "stance",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B051",
+    "belief": "KickstartAI believes that AI projects should be evaluated primarily by the tangible, trusted value they deliver to end users and by actual adoption in daily workflows, not by abstract technical metrics alone.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B052",
+    "belief": "KickstartAI believes that good data and robust data‑processing workflows are often more important than complex model architectures for creating differentiated, sustainable AI value.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B053",
+    "belief": "KickstartAI believes that for most startups and products it is more sustainable to build on top of rapidly improving general AI models or small fine‑tuned models than to develop competing foundational models from scratch.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B054",
+    "belief": "KickstartAI believes that model selection, computational capacity, and system design are often more impactful than intricate prompt engineering for complex, low‑signal tasks.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B055",
+    "belief": "KickstartAI believes that large language models are highly effective tools for rapidly understanding and modifying unfamiliar codebases and can significantly speed up software development when used thoughtfully.",
+    "category": "strategy",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B056",
+    "belief": "KickstartAI believes that multi‑agent architectures with specialised sub‑agents, strong retrieval from trusted sources, and strict topical/safety guardrails are effective patterns for building reliable, domain‑specific chatbots (e.g., financial health).",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B057",
+    "belief": "KickstartAI believes that evaluation‑driven development—using systematic, metric‑based pipelines, synthetic data, and classical software testing—is essential for building reliable generative AI systems.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B058",
+    "belief": "KickstartAI believes that in sensitive domains like healthcare and personal finance it is better to be conservative—avoiding hallucinations and unsafe advice—even at the cost of convenience or completeness.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B059",
+    "belief": "KickstartAI believes that AI systems in education should augment teachers, empower students, and protect core learning goals and privacy, rather than replace human teaching or undermine essential skills.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B060",
+    "belief": "KickstartAI believes that implementing AI in complex institutions like schools, hospitals, and banks is primarily an organisational and socio‑technical challenge rather than a purely technological one.",
+    "category": "domain_knowledge",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B061",
+    "belief": "KickstartAI believes that AI tools in education and assessment must prioritise transparency, explainability, and teacher control over scores to earn trust, even if that means using simpler models like classical NLP instead of opaque generative AI.",
+    "category": "values",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B062",
+    "belief": "KickstartAI believes that AI in education should support self‑regulated learning and provide teachers with actionable insights into student knowledge and needs, validated rigorously for real learning gains.",
+    "category": "strategy",
+    "sources": [
+      "blog"
+    ]
+  },
+  {
+    "id": "B063",
+    "belief": "KickstartAI believes that AI adoption in organisations requires investing in people—building AI literacy, critical thinking about AI outputs, and the ability to adapt and steer AI use—not just in technology.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B064",
+    "belief": "KickstartAI believes that cross‑disciplinary collaboration between AI experts and domain specialists (e.g., clinicians, bankers, energy engineers, police, policymakers) is necessary to design effective, trustworthy AI for complex real‑world problems.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B065",
+    "belief": "KickstartAI believes that open, pluralistic debate and critical examination of AI hype, AGI narratives, and AI risk framings are important for a healthy AI safety and policy discourse.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B066",
+    "belief": "KickstartAI believes that Europe and the Netherlands risk long‑term economic decline and loss of digital sovereignty if they do not rapidly increase AI investment, adoption, and supportive policy action.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B067",
+    "belief": "KickstartAI believes that political decision‑making and public support are critical levers for securing the future strength of the Dutch tech and AI ecosystem, and that entrepreneurs and citizens should actively engage in shaping policy.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B068",
+    "belief": "KickstartAI believes that AI should be developed and deployed in ways that are environmentally sustainable, and that both infrastructure design and user behaviour (e.g., prompting) must be reconsidered to reduce AI’s energy footprint.",
+    "category": "values",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B069",
+    "belief": "KickstartAI believes that synthetic simulation and advanced perception models are powerful, appropriate methods for safely testing and improving real‑world AI systems (e.g., autonomous driving, smart cities).",
+    "category": "stance",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B070",
+    "belief": "KickstartAI believes that many organisations lack in‑house AI expertise and therefore benefit from structured support, networks, and challenges that help turn real‑world problems into end‑to‑end AI solutions.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B071",
+    "belief": "KickstartAI believes that national‑level AI challenges and curated, selective programmes that emphasise relevance, feasibility, impact, scalability, and openness are effective vehicles for driving applied AI with social impact.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B072",
+    "belief": "KickstartAI believes that building and nurturing the largest possible community of AI experts in the Netherlands, with low barriers to participation (e.g., free, high‑value events), is key to retaining talent and accelerating applied AI.",
+    "category": "strategy",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B073",
+    "belief": "KickstartAI believes that AI should be used to improve public services and operations—such as reducing nurses’ administrative burden, improving patient inflow management, optimising aviation fuel, and enhancing public safety—while maintaining trust and ethics.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B074",
+    "belief": "KickstartAI believes that applying AI to environmental protection, biodiversity monitoring, and environmental crime enforcement is an especially important and appealing use of the technology.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B075",
+    "belief": "KickstartAI believes that NLP and AI can meaningfully contribute to global food security, but current data divides and underutilisation of research must be addressed through better data inclusion and collaborations between academia and societal partners.",
+    "category": "stance",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B076",
+    "belief": "KickstartAI believes that AI in media and journalism must be used responsibly, with attention to ethics, transparency, authorship, and audience trust, while also exploring new opportunities in business models and workflows.",
+    "category": "values",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B077",
+    "belief": "KickstartAI believes that AI in finance and banking—especially for financial crime detection and financial health support—must be transparent, fair, explainable, and grounded in approved, up‑to‑date sources, avoiding specific personalised financial advice.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B078",
+    "belief": "KickstartAI believes that agentic AI and conversational interfaces can help bridge the data–business gap by allowing users to ask complex, follow‑up questions beyond what static dashboards can support, provided transparency and guardrails are in place.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B079",
+    "belief": "KickstartAI believes that smaller, efficient language models—when properly fine‑tuned and integrated—can often deliver fast, cost‑effective performance comparable to larger models for tasks like semantic extraction and RAG.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B080",
+    "belief": "KickstartAI believes that AI should be part of a sustainable energy future, and that AI and machine learning are becoming necessary tools for managing increasingly complex, renewable‑heavy energy systems and grids.",
+    "category": "stance",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B081",
+    "belief": "KickstartAI believes that many AI efforts are stuck at the pilot stage and that deliberate, implementation‑focused approaches—embedding AI into core processes with clear ownership and governance—are required to unlock real value.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B082",
+    "belief": "KickstartAI believes that hands‑on, experiential learning—through building, experimenting, workshops, and challenges—is more effective for AI professionals and leaders than passive or purely theoretical formats.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B083",
+    "belief": "KickstartAI believes that collaboration between industry, academia, government, and public institutions (e.g., police, ministries, hospitals) is an appropriate and desirable way to develop safe, impactful AI for public and social‑sector challenges.",
+    "category": "strategy",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B084",
+    "belief": "KickstartAI believes that AI should genuinely serve and make life easier for the people who use it, and that applied AI should be designed for real needs, shaped with users, and built for impact beyond the model itself.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B085",
+    "belief": "KickstartAI believes that Europe and the Netherlands should aim to be leaders in applied, responsible AI rather than laggards, and that small countries can achieve outsized influence by taking concrete, exemplary actions.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B086",
+    "belief": "KickstartAI believes that awards, public recognition, and community visibility help validate and amplify responsible AI initiatives, but real success ultimately depends on concrete impact and collaboration.",
+    "category": "values",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B087",
+    "belief": "KickstartAI believes that many organisations currently underestimate non‑technical barriers—such as mindset, silos, misaligned incentives, and lack of ownership—as primary causes of AI project failure.",
+    "category": "domain_knowledge",
+    "sources": [
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B088",
+    "belief": "KickstartAI believes that AI regulation, innovation, and action must go hand‑in‑hand: flexible, collaborative regulation can support responsible innovation, whereas inflexible, poorly designed rules risk undermining Europe’s AI progress.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B089",
+    "belief": "KickstartAI believes that building informal, face‑to‑face relationships and peer‑level interactions within the AI community is important for trust, collaboration, and advancing practical AI work.",
+    "category": "values",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  },
+  {
+    "id": "B090",
+    "belief": "KickstartAI believes that applying AI to cultural heritage and scientific discovery (e.g., ancient texts, biodiversity, Earth observation) is a worthwhile and exciting use of the technology that can reveal otherwise inaccessible knowledge.",
+    "category": "stance",
+    "sources": [
+      "blog",
+      "linkedin_posts"
+    ]
+  }
+]

@@ -67,10 +67,12 @@ def get_extractor(method: str) -> BaseExtractor:
     """
     from extractors.extractor_llm import LLMExtractor
     from extractors.extractor_sensemaking import SensemakingExtractor
+    from extractors.extractor_multimodel import MultiModelExtractor
 
     EXTRACTOR_MAP: dict[str, type[BaseExtractor]] = {
         "llm":          LLMExtractor,
         "sensemaking":  SensemakingExtractor,
+        "multimodel":   MultiModelExtractor,
     }
 
     if method not in EXTRACTOR_MAP:
@@ -80,4 +82,3 @@ def get_extractor(method: str) -> BaseExtractor:
         )
 
     return EXTRACTOR_MAP[method]()
- 
